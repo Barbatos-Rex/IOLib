@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 /**
  * @author Barbatos Rex - 1190387@isep.ipp.pt
- * @version 1.0.0
+ * @version 1.0.1
  * This class is a multipurpose class to help manage files, write to them and get its content without any difficulty.
  */
 
