@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+hide fields
+package barbatos_rex1.io{
+    +class Manager{
+        {static}+makeDir(String path)
+    }
+}
+package java.io.File{
+    +class File{
+        {static}+makeDirs()
+    }
+}
+Manager -- File : tem o mesmo caminho para os diretórios >
+
+@enduml

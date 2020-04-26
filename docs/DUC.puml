@@ -1,0 +1,26 @@
+@startuml
+actor User as u
+left to right direction
+
+usecase "Create a Directory" as uc1
+usecase "Create a file" as uc2
+usecase "Open/Create a file" as uc2
+usecase "Delete a file" as uc4
+usecase "Get the content of a file" as uc5
+usecase "Save the content to a file" as uc6
+usecase "Add a line to a file" as uc7
+usecase "Remove a line from a file" as uc8
+
+u-->uc1
+u-->uc2
+u-->uc4
+u-->uc5
+u-->uc6
+u-->uc7
+u-->uc8
+
+
+
+
+
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+
+hide fields
+left to right direction
+package barbatos_rex1.io{
+    +class IOManager{
+        {static}+makeDir(String path)
+    }
+    +class FileFireWall{
+        {static}+makeDir(String path)
+    }
+    +class Manager{
+        {static}+makeDir(String path)
+    }
+}
+package java.io{
+    +class File{
+        +«File(String path)»
+        +makeDirs()
+    }
+
+}
+
+IOManager ..>FileFireWall
+FileFireWall ..> Manager
+Manager ..> File
+
+@enduml

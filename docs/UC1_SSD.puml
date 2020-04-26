@@ -1,0 +1,13 @@
+@startuml
+actor Utilizador as u
+
+participant ":IOManager" as io
+
+autonumber
+u-> io : Executa o método de criar o ficheiro\n com o caminhocomo parâmetro
+io --> u : O IOManager cria o ficheiro e retorna o sucesso
+
+
+
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+actor Utilizador as u
+
+participant ":IOManager" as io
+participant ":FileFireWall" as firewall
+participant ":Manager" as manager
+participant ":File" as file
+
+activate u
+u->io : boolean makeDir(String path)
+activate io
+io -> firewall : boolean makeDir(String path)
+activate firewall
+firewall ->manager : boolean makeDir(String path)
+activate manager
+manager-->file** : new File(String path)
+activate file
+file ->file : boolean makeDirs(String path)
+deactivate
+deactivate
+deactivate
+deactivate
+
+
+@enduml
