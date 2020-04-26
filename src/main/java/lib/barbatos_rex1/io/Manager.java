@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 class Manager {
-    private File file;
+    private final File file;
     private ArrayList<String> content;
-    private Importer in;
-    private Exporter ex;
+    private final Importer in;
+    private final Exporter ex;
 
     public Manager(String str) throws IOException {
         this.file = new File(str);
@@ -55,5 +55,9 @@ class Manager {
     public boolean setContent(ArrayList<String> newCont) {
         this.content=new ArrayList<>(newCont);
         return true;
+    }
+
+    public boolean removeLine(int i) {
+        return this.content.remove(i) != null;
     }
 }
