@@ -5,7 +5,7 @@ participant ":IOManager" as io
 participant ":FileFireWall" as firewall
 participant ":Manager" as manager
 participant ":File" as file
-
+autonumber
 activate u
 u->io : boolean makeDir(String path)
 activate io

@@ -1,0 +1,12 @@
+@startuml
+actor Utilizador as u
+
+participant ":Manager" as io
+autonumber
+activate u
+
+u->io : instancia uma classe usando um ficheiro ou o caminho para o mesmo
+activate io
+io --> u : o sucesso da operação
+deactivate
+@enduml

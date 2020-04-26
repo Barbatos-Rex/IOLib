@@ -72,7 +72,7 @@ O diretório é criado com sucesso.
 
 ### Sistematização ##
 
- Do racional resulta que as classes conceptuais promovidas a classes de software são:
+Do racional resulta que as classes conceptuais promovidas a classes de software são:
 
 * Manager
 

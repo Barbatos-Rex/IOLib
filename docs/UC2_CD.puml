@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+package barbatos_rex1.io{
+    +class IOManager{
+        +«IOManager(String path)»
+    }
+    ~class FileFireWall{
+        +«FileFireWall(String path)»
+    }
+    ~class Manager{
+        +«Manager(String path)»
+    }
+    ~class Importer{
+        +«Importer(File file)»
+        +get()
+    }
+}
+package java.io{
+    +class File{
+        +«File(String path)»
+    }
+}
+
+IOManager ..>FileFireWall
+FileFireWall ..> Manager
+Manager ..>File
+Manager ..>Importer
+IOManager"1" -->"1"FileFireWall : tem >
+FileFireWall"1" -->"1"Manager : tem >
+Manager "1" --> "1"File : tem >
+Manager "1" --> "1"Importer : tem >
+
+@enduml

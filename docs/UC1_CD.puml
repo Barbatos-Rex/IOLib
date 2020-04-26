@@ -6,10 +6,10 @@ package barbatos_rex1.io{
     +class IOManager{
         {static}+makeDir(String path)
     }
-    +class FileFireWall{
+    ~class FileFireWall{
         {static}+makeDir(String path)
     }
-    +class Manager{
+    ~class Manager{
         {static}+makeDir(String path)
     }
 }

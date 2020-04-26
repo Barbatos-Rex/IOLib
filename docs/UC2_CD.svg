@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     height="377.5px" preserveAspectRatio="none" style="width:1158px;height:377px;" version="1.1" viewBox="0 0 1158 377"
+     width="1158.75px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f3814zqma7x5x" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.5"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g><!--MD5=[776170d50eeda089144feb66ec02fd14]
+cluster barbatos_rex1.io-->
+        <polygon fill="#FFFFFF" filter="url(#f3814zqma7x5x)"
+                 points="27.5,30,182.5,30,191.25,59.5117,1131.25,59.5117,1131.25,190,27.5,190,27.5,30"
+                 style="stroke: #000000; stroke-width: 1.875;"/>
+        <line style="stroke: #000000; stroke-width: 1.875;" x1="27.5" x2="191.25" y1="59.5117" y2="59.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold"
+              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.6665">barbatos_rex1.io
+        </text><!--MD5=[0d852700fdad35b7061d461d6907a324]
+cluster java.io-->
+        <polygon fill="#FFFFFF" filter="url(#f3814zqma7x5x)"
+                 points="946.25,220,1011.25,220,1020,249.5117,1128.75,249.5117,1128.75,362.5,946.25,362.5,946.25,220"
+                 style="stroke: #000000; stroke-width: 1.875;"/>
+        <line style="stroke: #000000; stroke-width: 1.875;" x1="946.25" x2="1020" y1="249.5117" y2="249.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold"
+              lengthAdjust="spacingAndGlyphs" textLength="57.5" x="951.25" y="240.6665">java.io
+        </text><!--MD5=[d7d75c7975120325b5043d308b51cab1]
+class IOManager-->
+        <rect fill="#FEFECE" filter="url(#f3814zqma7x5x)" height="77.2949" id="IOManager"
+              style="stroke: #A80036; stroke-width: 1.875;" width="187.5" x="47.5" y="86.25"/>
+        <ellipse cx="92.6875" cy="106.25" fill="#ADD1B2" rx="13.75" ry="13.75"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <path d="M95.1875,101.875 Q95.4414,101.25 95.7344,100.9375 Q96.0273,100.625 96.3594,100.625 Q96.9453,100.625 97.3164,100.9766 Q97.6875,101.3281 97.6875,102.1484 L97.6875,104.1016 Q97.6875,104.9219 97.3359,105.2734 Q96.9844,105.625 96.4375,105.625 Q95.9492,105.625 95.6367,105.4102 Q95.3242,105.1953 95.1875,104.6289 Q95.1289,104.2383 94.9141,104.0234 Q94.5234,103.6133 93.8203,103.3789 Q93.1172,103.125 92.4141,103.125 Q91.5352,103.125 90.793,103.4766 Q90.0703,103.8281 89.5039,104.6094 Q88.9375,105.3906 88.9375,106.4648 L88.9375,107.6172 Q88.9375,108.9063 89.9922,109.7656 Q91.0469,110.625 92.9219,110.625 Q94.0352,110.625 94.8164,110.3711 Q95.2656,110.2344 95.7734,109.7852 Q96.1055,109.5313 96.2813,109.4531 Q96.457,109.375 96.6719,109.375 Q97.082,109.375 97.375,109.707 Q97.6875,110.0195 97.6875,110.4688 Q97.6875,110.8984 97.2578,111.4063 Q96.6328,112.1484 95.6367,112.5586 Q94.3281,113.125 92.7266,113.125 Q90.8516,113.125 89.3477,112.3828 Q88.1367,111.7969 87.2773,110.5273 Q86.4375,109.2578 86.4375,107.7539 L86.4375,106.3867 Q86.4375,104.8242 87.1797,103.457 Q87.9414,102.0898 89.25,101.3672 Q90.5781,100.625 92.0625,100.625 Q92.9609,100.625 93.7422,100.9375 Q94.5234,101.25 95.1875,101.875 Z "/>
+        <ellipse cx="122.3125" cy="105.625" fill="#84BE84" rx="3.75" ry="3.75"
+                 style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="75"
+              x="129.8125" y="112.3877">IOManager
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="48.75" x2="233.75" y1="126.25" y2="126.25"/>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="48.75" x2="233.75" y1="136.25" y2="136.25"/>
+        <ellipse cx="61.25" cy="150" fill="#84BE84" rx="3.75" ry="3.75" style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="155"
+              x="72.5" y="155.5237">«IOManager(String path)»
+        </text><!--MD5=[cfe1cb9e1bc9060f65fe183db82cde68]
+class FileFireWall-->
+        <rect fill="#FEFECE" filter="url(#f3814zqma7x5x)" height="77.2949" id="FileFireWall"
+              style="stroke: #A80036; stroke-width: 1.875;" width="190" x="356.25" y="86.25"/>
+        <ellipse cx="399.75" cy="106.25" fill="#ADD1B2" rx="13.75" ry="13.75"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <path d="M402.25,101.875 Q402.5039,101.25 402.7969,100.9375 Q403.0898,100.625 403.4219,100.625 Q404.0078,100.625 404.3789,100.9766 Q404.75,101.3281 404.75,102.1484 L404.75,104.1016 Q404.75,104.9219 404.3984,105.2734 Q404.0469,105.625 403.5,105.625 Q403.0117,105.625 402.6992,105.4102 Q402.3867,105.1953 402.25,104.6289 Q402.1914,104.2383 401.9766,104.0234 Q401.5859,103.6133 400.8828,103.3789 Q400.1797,103.125 399.4766,103.125 Q398.5977,103.125 397.8555,103.4766 Q397.1328,103.8281 396.5664,104.6094 Q396,105.3906 396,106.4648 L396,107.6172 Q396,108.9063 397.0547,109.7656 Q398.1094,110.625 399.9844,110.625 Q401.0977,110.625 401.8789,110.3711 Q402.3281,110.2344 402.8359,109.7852 Q403.168,109.5313 403.3438,109.4531 Q403.5195,109.375 403.7344,109.375 Q404.1445,109.375 404.4375,109.707 Q404.75,110.0195 404.75,110.4688 Q404.75,110.8984 404.3203,111.4063 Q403.6953,112.1484 402.6992,112.5586 Q401.3906,113.125 399.7891,113.125 Q397.9141,113.125 396.4102,112.3828 Q395.1992,111.7969 394.3398,110.5273 Q393.5,109.2578 393.5,107.7539 L393.5,106.3867 Q393.5,104.8242 394.2422,103.457 Q395.0039,102.0898 396.3125,101.3672 Q397.6406,100.625 399.125,100.625 Q400.0234,100.625 400.8047,100.9375 Q401.5859,101.25 402.25,101.875 Z "/>
+        <polygon fill="#4177AF" points="429,100.625,424,108.125,434,108.125"
+                 style="stroke: #1963A0; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="81.25"
+              x="436.5" y="112.3877">FileFireWall
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="357.5" x2="545" y1="126.25" y2="126.25"/>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="357.5" x2="545" y1="136.25" y2="136.25"/>
+        <ellipse cx="370" cy="150" fill="#84BE84" rx="3.75" ry="3.75" style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs"
+              textLength="157.5" x="381.25" y="155.5237">«FileFireWall(String path)»
+        </text><!--MD5=[b24ed8d4ae84bae9290d9aab401637c7]
+class Manager-->
+        <rect fill="#FEFECE" filter="url(#f3814zqma7x5x)" height="77.2949" id="Manager"
+              style="stroke: #A80036; stroke-width: 1.875;" width="175" x="667.5" y="92.5"/>
+        <ellipse cx="713.8125" cy="112.5" fill="#ADD1B2" rx="13.75" ry="13.75"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <path d="M716.3125,108.125 Q716.5664,107.5 716.8594,107.1875 Q717.1523,106.875 717.4844,106.875 Q718.0703,106.875 718.4414,107.2266 Q718.8125,107.5781 718.8125,108.3984 L718.8125,110.3516 Q718.8125,111.1719 718.4609,111.5234 Q718.1094,111.875 717.5625,111.875 Q717.0742,111.875 716.7617,111.6602 Q716.4492,111.4453 716.3125,110.8789 Q716.2539,110.4883 716.0391,110.2734 Q715.6484,109.8633 714.9453,109.6289 Q714.2422,109.375 713.5391,109.375 Q712.6602,109.375 711.918,109.7266 Q711.1953,110.0781 710.6289,110.8594 Q710.0625,111.6406 710.0625,112.7148 L710.0625,113.8672 Q710.0625,115.1563 711.1172,116.0156 Q712.1719,116.875 714.0469,116.875 Q715.1602,116.875 715.9414,116.6211 Q716.3906,116.4844 716.8984,116.0352 Q717.2305,115.7813 717.4063,115.7031 Q717.582,115.625 717.7969,115.625 Q718.207,115.625 718.5,115.957 Q718.8125,116.2695 718.8125,116.7188 Q718.8125,117.1484 718.3828,117.6563 Q717.7578,118.3984 716.7617,118.8086 Q715.4531,119.375 713.8516,119.375 Q711.9766,119.375 710.4727,118.6328 Q709.2617,118.0469 708.4023,116.7773 Q707.5625,115.5078 707.5625,114.0039 L707.5625,112.6367 Q707.5625,111.0742 708.3047,109.707 Q709.0664,108.3398 710.375,107.6172 Q711.7031,106.875 713.1875,106.875 Q714.0859,106.875 714.8672,107.1875 Q715.6484,107.5 716.3125,108.125 Z "/>
+        <polygon fill="#4177AF" points="743.6875,106.875,738.6875,114.375,748.6875,114.375"
+                 style="stroke: #1963A0; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="60"
+              x="751.1875" y="118.6377">Manager
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="668.75" x2="841.25" y1="132.5" y2="132.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="668.75" x2="841.25" y1="142.5" y2="142.5"/>
+        <ellipse cx="681.25" cy="156.25" fill="#84BE84" rx="3.75" ry="3.75"
+                 style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs"
+              textLength="142.5" x="692.5" y="161.7737">«Manager(String path)»
+        </text><!--MD5=[c42cc2f62cf2b85ed1c672168c570fb7]
+class Importer-->
+        <rect fill="#FEFECE" filter="url(#f3814zqma7x5x)" height="94.5898" id="Importer"
+              style="stroke: #A80036; stroke-width: 1.875;" width="147.5" x="963.75" y="75"/>
+        <ellipse cx="998.8125" cy="95" fill="#ADD1B2" rx="13.75" ry="13.75"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <path d="M1001.3125,90.625 Q1001.5664,90 1001.8594,89.6875 Q1002.1523,89.375 1002.4844,89.375 Q1003.0703,89.375 1003.4414,89.7266 Q1003.8125,90.0781 1003.8125,90.8984 L1003.8125,92.8516 Q1003.8125,93.6719 1003.4609,94.0234 Q1003.1094,94.375 1002.5625,94.375 Q1002.0742,94.375 1001.7617,94.1602 Q1001.4492,93.9453 1001.3125,93.3789 Q1001.2539,92.9883 1001.0391,92.7734 Q1000.6484,92.3633 999.9453,92.1289 Q999.2422,91.875 998.5391,91.875 Q997.6602,91.875 996.918,92.2266 Q996.1953,92.5781 995.6289,93.3594 Q995.0625,94.1406 995.0625,95.2148 L995.0625,96.3672 Q995.0625,97.6563 996.1172,98.5156 Q997.1719,99.375 999.0469,99.375 Q1000.1602,99.375 1000.9414,99.1211 Q1001.3906,98.9844 1001.8984,98.5352 Q1002.2305,98.2813 1002.4063,98.2031 Q1002.582,98.125 1002.7969,98.125 Q1003.207,98.125 1003.5,98.457 Q1003.8125,98.7695 1003.8125,99.2188 Q1003.8125,99.6484 1003.3828,100.1563 Q1002.7578,100.8984 1001.7617,101.3086 Q1000.4531,101.875 998.8516,101.875 Q996.9766,101.875 995.4727,101.1328 Q994.2617,100.5469 993.4023,99.2773 Q992.5625,98.0078 992.5625,96.5039 L992.5625,95.1367 Q992.5625,93.5742 993.3047,92.207 Q994.0664,90.8398 995.375,90.1172 Q996.7031,89.375 998.1875,89.375 Q999.0859,89.375 999.8672,89.6875 Q1000.6484,90 1001.3125,90.625 Z "/>
+        <polygon fill="#4177AF" points="1026.1875,89.375,1021.1875,96.875,1031.1875,96.875"
+                 style="stroke: #1963A0; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="57.5"
+              x="1033.6875" y="101.1377">Importer
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="965" x2="1110" y1="115" y2="115"/>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="965" x2="1110" y1="125" y2="125"/>
+        <ellipse cx="977.5" cy="138.75" fill="#84BE84" rx="3.75" ry="3.75"
+                 style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="115"
+              x="988.75" y="144.2737">«Importer(File file)»
+        </text>
+        <ellipse cx="977.5" cy="156.0449" fill="#84BE84" rx="3.75" ry="3.75"
+                 style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs"
+              textLength="28.75" x="988.75" y="161.5686">get()
+        </text><!--MD5=[63dd87716ef75a5caca5dce59428e94a]
+class File-->
+        <rect fill="#FEFECE" filter="url(#f3814zqma7x5x)" height="77.2949" id="File"
+              style="stroke: #A80036; stroke-width: 1.875;" width="142.5" x="966.25" y="265"/>
+        <ellipse cx="1013.6875" cy="285" fill="#ADD1B2" rx="13.75" ry="13.75"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <path d="M1016.1875,280.625 Q1016.4414,280 1016.7344,279.6875 Q1017.0273,279.375 1017.3594,279.375 Q1017.9453,279.375 1018.3164,279.7266 Q1018.6875,280.0781 1018.6875,280.8984 L1018.6875,282.8516 Q1018.6875,283.6719 1018.3359,284.0234 Q1017.9844,284.375 1017.4375,284.375 Q1016.9492,284.375 1016.6367,284.1602 Q1016.3242,283.9453 1016.1875,283.3789 Q1016.1289,282.9883 1015.9141,282.7734 Q1015.5234,282.3633 1014.8203,282.1289 Q1014.1172,281.875 1013.4141,281.875 Q1012.5352,281.875 1011.793,282.2266 Q1011.0703,282.5781 1010.5039,283.3594 Q1009.9375,284.1406 1009.9375,285.2148 L1009.9375,286.3672 Q1009.9375,287.6563 1010.9922,288.5156 Q1012.0469,289.375 1013.9219,289.375 Q1015.0352,289.375 1015.8164,289.1211 Q1016.2656,288.9844 1016.7734,288.5352 Q1017.1055,288.2813 1017.2813,288.2031 Q1017.457,288.125 1017.6719,288.125 Q1018.082,288.125 1018.375,288.457 Q1018.6875,288.7695 1018.6875,289.2188 Q1018.6875,289.6484 1018.2578,290.1563 Q1017.6328,290.8984 1016.6367,291.3086 Q1015.3281,291.875 1013.7266,291.875 Q1011.8516,291.875 1010.3477,291.1328 Q1009.1367,290.5469 1008.2773,289.2773 Q1007.4375,288.0078 1007.4375,286.5039 L1007.4375,285.1367 Q1007.4375,283.5742 1008.1797,282.207 Q1008.9414,280.8398 1010.25,280.1172 Q1011.5781,279.375 1013.0625,279.375 Q1013.9609,279.375 1014.7422,279.6875 Q1015.5234,280 1016.1875,280.625 Z "/>
+        <ellipse cx="1043.8125" cy="284.375" fill="#84BE84" rx="3.75" ry="3.75"
+                 style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="25"
+              x="1051.3125" y="291.1377">File
+        </text>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="967.5" x2="1107.5" y1="305" y2="305"/>
+        <line style="stroke: #A80036; stroke-width: 1.875;" x1="967.5" x2="1107.5" y1="315" y2="315"/>
+        <ellipse cx="980" cy="328.75" fill="#84BE84" rx="3.75" ry="3.75" style="stroke: #038048; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="110"
+              x="991.25" y="334.2737">«File(String path)»
+        </text><!--MD5=[aaee77d11869de683337ec0747dbeb65]
+link IOManager to FileFireWall-->
+        <path d="M235.1525,147.0525 C247.6425,149.3038 260.34,151.2275 272.5,152.5 C297.5175,155.1175 324.3925,153.355 349.47,149.7125 "
+              fill="none" id="IOManager-&gt;FileFireWall"
+              style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="355.805,148.7475,343.9304,145.4985,349.6263,149.6886,345.4361,155.3845,355.805,148.7475"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[aaee77d11869de683337ec0747dbeb65]
+link IOManager to FileFireWall-->
+        <path d="M235.1775,125 C271.285,125 312.76,125 349.5775,125 " fill="none" id="IOManager-&gt;FileFireWall-1"
+              style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036" points="355.9188,125,344.6688,120,349.6688,125,344.6688,130,355.9188,125"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="27.5" x="273.75" y="120.6189">tem
+        </text>
+        <polygon fill="#000000" points="305,112.0947,312.5,115.8447,305,119.5947,305,112.0947"
+                 style="stroke: #000000; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="244.8542" y="142.885">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="337.3539" y="142.885">1
+        </text><!--MD5=[53ec9ac87ce662995c420996c5917a37]
+link FileFireWall to Manager-->
+        <path d="M546.4075,147.1163 C558.9013,149.34 571.5925,151.24 583.75,152.5 C604.1963,154.6187 609.5188,154.2462 630,152.5 C640.0725,151.6412 650.5575,150.3963 660.9738,148.9337 "
+              fill="none" id="FileFireWall-&gt;Manager"
+              style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="667.4463,147.9962,655.5955,144.6614,661.2609,148.8926,657.0297,154.558,667.4463,147.9962"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[53ec9ac87ce662995c420996c5917a37]
+link FileFireWall to Manager-->
+        <path d="M546.5788,126.9513 C582.82,127.7038 624.1725,128.5612 660.35,129.3125 " fill="none"
+              id="FileFireWall-&gt;Manager-1" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="667.0425,129.4513,655.8992,124.2177,660.7939,129.3209,655.6907,134.2156,667.0425,129.4513"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="27.5" x="585" y="123.1189">tem
+        </text>
+        <polygon fill="#000000" points="616.25,114.5947,623.75,118.3447,616.25,122.0947,616.25,114.5947"
+                 style="stroke: #000000; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="556.3933" y="145.0283">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="648.7707" y="147.1991">1
+        </text><!--MD5=[9094504a78a8a624dc0e3735af7308d8]
+link Manager to File-->
+        <path d="M819.4363,170.1775 C863.61,197.3913 922.56,233.7087 967.8413,261.6051 " fill="none"
+              id="Manager-&gt;File" style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="973.2938,264.9641,966.3386,254.806,967.9727,261.6856,961.093,263.3197,973.2938,264.9641"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[9094504a78a8a624dc0e3735af7308d8]
+link Manager to File-->
+        <path d="M782.6738,170.4788 C805.1025,200.755 839.9625,241.345 880,265 C904.0587,279.2148 933.1588,288.2369 959.6925,293.9541 "
+              fill="none" id="Manager-&gt;File-1" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="966.02,295.2665,956.0203,288.0854,959.9003,293.9968,953.9889,297.8769,966.02,295.2665"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="27.5" x="881.25" y="260.6189">tem
+        </text>
+        <polygon fill="#000000" points="912.5,252.0947,920,255.8447,912.5,259.5947,912.5,252.0947"
+                 style="stroke: #000000; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="778.3651" y="196.7933">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="947.5511" y="312.371">1
+        </text><!--MD5=[96f76a1a1aa6b66070b76640b82cea2b]
+link Manager to Importer-->
+        <path d="M842.7713,150.7112 C869.545,154.4088 899.1275,156.1325 926.25,152.5 C936.3238,151.1513 946.7813,149.1363 957.0637,146.7775 "
+              fill="none" id="Manager-&gt;Importer"
+              style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036"
+                 points="963.4375,145.2675,951.3377,142.9967,957.356,146.7088,953.6438,152.7272,963.4375,145.2675"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[96f76a1a1aa6b66070b76640b82cea2b]
+link Manager to Importer-->
+        <path d="M842.5437,128.5537 C879,127.4138 921.1825,126.0963 956.8588,124.9813 " fill="none"
+              id="Manager-&gt;Importer-1" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="963.4413,124.775,952.041,120.1277,957.1943,124.9696,952.3524,130.1229,963.4413,124.775"
+                 style="stroke: #A80036; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="27.5" x="881.25" y="120.6189">tem
+        </text>
+        <polygon fill="#000000" points="912.5,112.0947,920,115.8447,912.5,119.5947,912.5,112.0947"
+                 style="stroke: #000000; stroke-width: 1.25;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="852.5974" y="146.2567">1
+        </text>
+        <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
+              textLength="8.75" x="945.1321" y="143.1917">1
+        </text><!--MD5=[b89c6e8776a112cc3f95f96eb636e8ef]
+@startuml
+left to right direction
+package barbatos_rex1.io{
+    +class IOManager{
+        +«IOManager(String path)»
+    }
+    ~class FileFireWall{
+        +«FileFireWall(String path)»
+    }
+    ~class Manager{
+        +«Manager(String path)»
+    }
+    ~class Importer{
+        +«Importer(File file)»
+        +get()
+    }
+}
+package java.io{
+    +class File{
+        +«File(String path)»
+    }
+}
+
+IOManager ..>FileFireWall
+FileFireWall ..> Manager
+Manager ..>File
+Manager ..>Importer
+IOManager"1" - ->"1"FileFireWall : tem >
+FileFireWall"1" - ->"1"Manager : tem >
+Manager "1" - -> "1"File : tem >
+Manager "1" - -> "1"Importer : tem >
+
+@enduml
+
+PlantUML version 1.2020.07(Sun Apr 19 12:42:40 BST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.6+8-b765.25
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+-->
+    </g>
+</svg>

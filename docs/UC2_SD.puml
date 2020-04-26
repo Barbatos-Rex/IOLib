@@ -1,0 +1,24 @@
+@startuml
+actor Utilizador as u
+participant "io:IOManager" as io
+participant "firewall:FileFireWall" as firewall
+participant "manager:Manager" as manager
+participant "file:File" as file
+participant "in:Inporter" as in
+autonumber
+activate u
+u-->io** : io = create(String path)
+activate io
+io -->firewall** : firewall = create(String path)
+activate firewall
+firewall -->manager** : manager = create(String path)
+activate manager
+manager -->file** : file = File(String path)
+manager --> in** : in = create(File file)
+manager -> in : get()
+activate in
+deactivate
+deactivate
+deactivate
+deactivate
+@enduml

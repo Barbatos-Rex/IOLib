@@ -2,7 +2,7 @@
 left to right direction
 hide fields
 package barbatos_rex1.io{
-    +class Manager{
+    ~class Manager{
         {static}+makeDir(String path)
     }
 }

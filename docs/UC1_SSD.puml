@@ -5,9 +5,9 @@ participant ":IOManager" as io
 
 autonumber
 u-> io : Executa o método de criar o ficheiro\n com o caminhocomo parâmetro
+activate io
 io --> u : O IOManager cria o ficheiro e retorna o sucesso
-
-
+deactivate
 
 
 @enduml

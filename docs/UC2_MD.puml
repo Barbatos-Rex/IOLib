@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+package barbatos_rex1.io{
+    ~class Manager{
+
+    }
+    ~class Importer{
+
+    }
+}
+package java.io{
+    +class File{
+
+    }
+}
+Manager"1" -- "1"File : tem >
+Manager"1" -- "1"Importer: tem >
+Importer .. File
+
+@enduml
