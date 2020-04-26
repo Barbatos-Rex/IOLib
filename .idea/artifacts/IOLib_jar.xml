@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IOLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IOLib_jar</output-path>
+    <root id="archive" name="IOLib.jar">
+      <element id="module-output" name="IOLib" />
+    </root>
+  </artifact>
+</component>
