@@ -1,0 +1,16 @@
+@startuml
+
+actor Utilizador as u
+
+participant ":IOManager" as io
+
+
+autonumber
+activate u
+u->io**: intancia io com o ficheiro (ou o seu caminho).
+u->io: deleteFile()
+activate io
+io --> u : Retorna o sucesso
+deactivate
+
+@enduml

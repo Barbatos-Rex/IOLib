@@ -47,7 +47,7 @@ O diretório é criado com sucesso.
 \-
 
 #### Frequência de Ocorrência
-(descrever com que frequência este UC é realizado)
+
 
 \-
 

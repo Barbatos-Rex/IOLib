@@ -5,10 +5,24 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * The type File fire wall.
+ */
 class FileFireWall {
+	/**
+	 * The Meltdown. If the file is usable the this variable is false.
+	 */
 	public boolean meltdown;
+	/**
+	 * The Manager
+	 */
 	private Manager manager;
 
+	/**
+	 * Instantiates a new File fire wall.
+	 *
+	 * @param str the file path
+	 */
 	public FileFireWall(String str) {
 		try {
 			this.manager = new Manager(str);
@@ -18,6 +32,11 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Instantiates a new File fire wall.
+	 *
+	 * @param file the file
+	 */
 	public FileFireWall(File file) {
 		try {
 			this.manager = new Manager(file);
@@ -27,10 +46,21 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Delete file.
+	 *
+	 * @return the success
+	 */
 	public boolean deleteFile() {
 		return this.manager.deleteFile();
 	}
 
+	/**
+	 * Make dir.
+	 *
+	 * @param path the path
+	 * @return the success
+	 */
 	public boolean makeDir(String path) {
 		try {
 			return this.manager.makeDir(path);
@@ -39,6 +69,11 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Gets file content.
+	 *
+	 * @return the file content
+	 */
 	public ArrayList<String> getFileCont() {
 		try {
 			return this.manager.getCont();
@@ -47,6 +82,11 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Saves file content.
+	 *
+	 * @return the success
+	 */
 	public boolean saveFile() {
 		try {
 			return this.manager.saveText();
@@ -55,6 +95,13 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Adds a line.
+	 *
+	 * @param i   the line number
+	 * @param str the content
+	 * @return the success
+	 */
 	public boolean addLine(int i, String str) {
 		try {
 			return this.manager.addLine(i, str);
@@ -63,6 +110,12 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Adds a line in the end of the file.
+	 *
+	 * @param str the content
+	 * @return the success
+	 */
 	public boolean addLine(String str) {
 		try {
 			return this.manager.addLine(str);
@@ -71,6 +124,12 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Sets the content of the file.
+	 *
+	 * @param newCont the new content
+	 * @return the success
+	 */
 	public boolean setContent(ArrayList<String> newCont) {
 		try {
 			return this.manager.setContent(newCont);
@@ -79,6 +138,12 @@ class FileFireWall {
 		}
 	}
 
+	/**
+	 * Remove line.
+	 *
+	 * @param i the line number
+	 * @return the success
+	 */
 	public boolean removeLine(int i) {
 		try {
 			return manager.removeLine(i);

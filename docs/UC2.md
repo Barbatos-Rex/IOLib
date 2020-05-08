@@ -47,7 +47,7 @@ O ficheiro é criado/aberto com sucesso.
 \-
 
 #### Frequência de Ocorrência
-(descrever com que frequência este UC é realizado)
+
 
 \-
 

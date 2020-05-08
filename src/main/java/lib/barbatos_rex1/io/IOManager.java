@@ -5,9 +5,10 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
+ * This class is a multipurpose class to help manage files, write to them and get its content without any difficulty.
  * @author Barbatos Rex - 1190387@isep.ipp.pt
  * @version 1.0.1
- * This class is a multipurpose class to help manage files, write to them and get its content without any difficulty.
+ *
  */
 
 public class IOManager {

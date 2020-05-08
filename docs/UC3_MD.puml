@@ -1,0 +1,19 @@
+@startuml
+hide fields
+left to right direction
+package barbatos_rex1.io{
+    ~class Manager{
+        +deleteFile()
+    }
+}
+package java.io{
+    hide methods
+    +class File{
+    }
+}
+
+Manager"1"--"1"File: apaga >
+
+
+
+@enduml
