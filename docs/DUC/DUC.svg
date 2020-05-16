@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     height="612.5px" preserveAspectRatio="none" style="width:365px;height:612px;" version="1.1" viewBox="0 0 365 612"
+     width="365px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fecix2k752afb" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.5"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix"
+                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g><!--MD5=[7d46d6cd919e02e6168a09ad91eae8b4]
+entity u-->
+        <ellipse cx="25.625" cy="253.75" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="10" ry="10"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <path d="M25.625,263.75 L25.625,297.5 M9.375,273.75 L41.875,273.75 M25.625,297.5 L9.375,316.25 M25.625,297.5 L41.875,316.25 "
+              fill="none" filter="url(#fecix2k752afb)" style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs"
+              textLength="36.25" x="7.5" y="341.2915">User
+        </text>
+        <ellipse cx="234.7691" cy="32.5788" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="94.7691" ry="21.9538"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="145"
+              x="162.2691" y="39.2097">Create a Directory
+        </text>
+        <ellipse cx="234.7691" cy="120.0788" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="94.7691" ry="21.9538"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="145"
+              x="162.2691" y="126.7097">Open/Create a file
+        </text>
+        <ellipse cx="235.0413" cy="204.9396" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="70.0413" ry="19.3146"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs"
+              textLength="93.75" x="188.1663" y="211.5705">Delete a file
+        </text>
+        <ellipse cx="235.1312" cy="294.0262" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="111.3812" ry="25.2762"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="185"
+              x="142.6312" y="300.6571">Get the content of a file
+        </text>
+        <ellipse cx="235.0022" cy="388.7504" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="116.2522" ry="26.2504"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs"
+              textLength="196.25" x="136.8772" y="395.3813">Save the content to a file
+        </text>
+        <ellipse cx="235.1578" cy="481.0316" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="93.2828" ry="21.6566"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs"
+              textLength="141.25" x="164.5328" y="487.6624">Add a line to a file
+        </text>
+        <ellipse cx="235.0825" cy="573.6415" fill="#FEFECE" filter="url(#fecix2k752afb)" rx="115.7075" ry="26.1415"
+                 style="stroke: #A80036; stroke-width: 1.875;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="195"
+              x="137.5825" y="580.2724">Remove a line from a file
+        </text><!--MD5=[b2b650fb067a81fe93d0d08ba9a3d4fd]
+link u to uc1-->
+        <path d="M36.5744,241.835 C48.2146,193.0662 72.2809,121.0688 118.75,76.25 C130.4231,64.9913 145.2875,56.5625 160.4225,50.2763 "
+              fill="none" id="u-&gt;uc1" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="166.4575,47.8838,154.1567,47.3817,160.6474,50.1871,157.842,56.6778,166.4575,47.8838"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[d79c1cbf5a4c225cb64967d43e965430]
+link u to uc2-->
+        <path d="M43.92,258.9863 C59.7319,229.9562 85.7706,189.3213 118.75,163.75 C132.4316,153.1412 148.9763,144.865 165.2013,138.5075 "
+              fill="none" id="u-&gt;uc2" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="171.1575,136.2512,158.8658,135.56,165.3127,138.4649,162.4077,144.9117,171.1575,136.2512"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[60ab8832aa2d185d88bdafcba974f2ba]
+link u to uc4-->
+        <path d="M43.8165,284.1262 C62.0065,273.9988 91.9163,257.9375 118.75,246.25 C139.1925,237.3463 162.2387,228.7987 182.3025,221.8162 "
+              fill="none" id="u-&gt;uc4" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="188.4275,219.7013,176.1615,218.6483,182.52,221.7418,179.4265,228.1003,188.4275,219.7013"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[bf521447fc5107b7434b2d0a2b0c06b1]
+link u to uc5-->
+        <path d="M43.8045,293.75 C60.6708,293.75 88.1568,293.75 117.0465,293.75 " fill="none" id="u-&gt;uc5"
+              style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036" points="123.6214,293.75,112.3714,288.75,117.3714,293.75,112.3714,298.75,123.6214,293.75"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[2f61573850970c08a8fdaadcf5f518e1]
+link u to uc6-->
+        <path d="M43.9829,302.7838 C62.3119,312.3638 92.3365,327.7688 118.75,340 C135.7225,347.8588 154.3113,355.9562 171.5025,363.2388 "
+              fill="none" id="u-&gt;uc6" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="177.2737,365.6763,168.8553,356.6933,171.5162,363.2447,164.9648,365.9055,177.2737,365.6763"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[949dc95868ebf3b7f04be8589e652950]
+link u to uc7-->
+        <path d="M43.816,333.07 C59.2464,364.765 84.8,408.4825 118.75,436.25 C132.4958,447.4925 149.385,456.1713 165.945,462.7675 "
+              fill="none" id="u-&gt;uc7" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="172.025,465.1038,163.3185,456.3998,166.1913,462.861,159.7301,465.7337,172.025,465.1038"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[e3d9e252234c11803ab4dbe07b1eb91c]
+link u to uc8-->
+        <path d="M35.5618,346.0663 C46.6246,397.5963 70.4344,475.5712 118.75,525 C129.0954,535.5838 142.0988,543.9891 155.6063,550.6255 "
+              fill="none" id="u-&gt;uc8" style="stroke: #A80036; stroke-width: 1.25;"/>
+        <polygon fill="#A80036"
+                 points="161.42,553.3625,153.3718,544.0465,155.7655,550.7,149.1119,553.0937,161.42,553.3625"
+                 style="stroke: #A80036; stroke-width: 1.25;"/><!--MD5=[d2defd58da35ec69825be436a390fb67]
+@startuml
+actor User as u
+left to right direction
+
+usecase "Create a Directory" as uc1
+usecase "Create a file" as uc2
+usecase "Open/Create a file" as uc2
+usecase "Delete a file" as uc4
+usecase "Get the content of a file" as uc5
+usecase "Save the content to a file" as uc6
+usecase "Add a line to a file" as uc7
+usecase "Remove a line from a file" as uc8
+
+u- ->uc1
+u- ->uc2
+u- ->uc4
+u- ->uc5
+u- ->uc6
+u- ->uc7
+u- ->uc8
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2020.07(Sun Apr 19 12:42:40 BST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.6+8-b765.25
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

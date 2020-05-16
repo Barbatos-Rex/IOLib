@@ -1,12 +1,12 @@
-# UC6 - Adicionar uma linha a um ficheiro
+# UC7 - Remover uma linha de um ficheiro
 
 ## 1.Engenharia de Requisitos.
 ### Formato breve
 
-O utilizador chama um método de uma classe. O sistema adiciona a linha ao ficheiro e retorna o sucesso da operação.
+O utilizador chama um método de uma classe. O sistema remove a linha do ficheiro e retorna o sucesso da operação.
 
 ### SSD
-![](UC5_SSD.svg)
+![](../UC5/UC5_SSD.svg)
 
 ### Formato Completo
 
@@ -15,7 +15,7 @@ O Utilizador
 
 #### Partes interessadas e seus interesses.
 
-**Utilizador:** pretende adicionar conteúdo ao ficheiro.
+**Utilizador:** pretende remover conteúdo do ficheiro.
 
 #### Pré-condições
 
@@ -23,13 +23,13 @@ Uma instância de IOManager
 
 #### Pós-condições
 
-A linha é adicionada ao conteúdo, mas não gravada.
+A linha é removida ao conteúdo, mas não apagada do ficheiro.
 
 
 #### Cenário de sucesso principal (ou fluxo básico)
 
-1. O Utilizador executa o método addLine(int index, String conteúdo, Key). 
-2. O IOManager adiciona a linha o conteúdo. 
+1. O Utilizador executa o método removeLine(int index, Key). 
+2. O IOManager remove a linha o conteúdo. 
 
 
 
@@ -55,7 +55,7 @@ A linha é adicionada ao conteúdo, mas não gravada.
 
 ### Excerto do Modelo de Domínio Relevante para o UC
 
-![](UC6_MD.svg)
+![](UC7_MD.svg)
 
 
 ## 3. Design - Realização do Caso de Uso
@@ -64,9 +64,9 @@ A linha é adicionada ao conteúdo, mas não gravada.
 
 | Fluxo Principal | Questão: Que Classe... | Resposta  | Justificação  |
 |:--------------  |:---------------------- |:----------|:---------------------------- |
-| 1. O Utilizador executa o método addLine(int index, String conteúdo, Key).  |...interage com o utilizador?| IOManager|Pure Fabrication|
+| 1. O Utilizador executa o método removeLine(int index, Key).  |...interage com o utilizador?| IOManager|Pure Fabrication|
 | |...cordena o caso de uso| FileFireWall|Controller
-| 2. O IOManager adiciona a linha o conteúdo. |...adiciona a linha ao conteúdo?|Manager| Information Expert pois é o responsável por exportar conteúdo para o ficheiro|
+| 2. O IOManager remove a linha o conteúdo. |...remove a linha do conteúdo?|Manager| Information Expert pois é o responsável por exportar conteúdo para o ficheiro|
 
 
 ### Sistematização ##
@@ -83,7 +83,7 @@ Outras classes de software (i.e. Pure Fabrication) identificadas:
 
 ###	Diagrama de Sequência
 
-![SD_UCX.png](UC6_SD.svg)
+![SD_UCX.png](UC7_SD.svg)
 
 
 ###	Diagrama de Classes

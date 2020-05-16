@@ -91,7 +91,7 @@ Outras classes de software (i.e. Pure Fabrication) identificadas:
 
 ###	Diagrama de Classes
 
-![CD_UCX.png](UC1_CD.svg)
+![CD_UCX.png](../UC1/UC1_CD.svg)
  
 
 
