@@ -1,0 +1,19 @@
+@startuml
+
+actor "Utilizador" as u
+participant ":IOManager" as io
+participant ":FileFireWall" as fw
+participant ":Manager" as manager
+autonumber
+activate u
+u->io:adLine(int,String, Key)
+activate io
+io->fw:addLine(int,String)
+activate fw
+fw->manager:addLine(int,String)
+activate manager
+deactivate
+deactivate
+io-->u:Retorna o sucesso
+deactivate
+@enduml

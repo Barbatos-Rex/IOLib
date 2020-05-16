@@ -1,12 +1,12 @@
 @startuml
 actor Utilizador as u
 
-participant ":Manager" as io
+participant ":Manager" as barbatos_rex1.io
 autonumber
 activate u
 
-u->io : instancia uma classe usando um ficheiro ou o caminho para o mesmo
-activate io
-io --> u : o sucesso da operação
+u->barbatos_rex1.io : instancia uma classe usando um ficheiro ou o caminho para o mesmo
+activate barbatos_rex1.io
+barbatos_rex1.io --> u : o sucesso da operação
 deactivate
 @enduml

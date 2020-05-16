@@ -1,6 +1,6 @@
 @startuml
 left to right direction
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     +class IOManager{
         +«IOManager(String path)»
     }
@@ -15,7 +15,7 @@ package barbatos_rex1.io{
         +get()
     }
 }
-package java.io{
+package java.barbatos_rex1.io{
     +class File{
         +«File(String path)»
     }

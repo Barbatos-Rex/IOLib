@@ -1,0 +1,14 @@
+@startuml
+
+hide fields
+left to right direction
+package barbatos_rex1.barbatos_rex1.io{
+    ~class Manager{
+        +addLine(int, String)
+    }
+
+}
+
+Manager"1"--"1"Manager: adiciona o conteúdo >
+
+@enduml

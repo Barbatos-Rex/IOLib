@@ -12,21 +12,21 @@
         </filter>
     </defs>
     <g><!--MD5=[776170d50eeda089144feb66ec02fd14]
-cluster barbatos_rex1.io-->
+cluster barbatos_rex1.barbatos_rex1.io-->
         <polygon fill="#FFFFFF" filter="url(#fzo6c66b3lv0i)"
                  points="27.5,30,182.5,30,191.25,59.5117,222.5,59.5117,222.5,162.5,27.5,162.5,27.5,30"
                  style="stroke: #000000; stroke-width: 1.875;"/>
         <line style="stroke: #000000; stroke-width: 1.875;" x1="27.5" x2="191.25" y1="59.5117" y2="59.5117"/>
         <text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold"
-              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.6665">barbatos_rex1.io
+              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.6665">barbatos_rex1.barbatos_rex1.io
         </text><!--MD5=[04b60553f148d1d75385c956807e5a0f]
-cluster java.io.File-->
+cluster java.barbatos_rex1.io.File-->
         <polygon fill="#FFFFFF" filter="url(#fzo6c66b3lv0i)"
                  points="577.5,30,680,30,688.75,59.5117,715,59.5117,715,162.5,577.5,162.5,577.5,30"
                  style="stroke: #000000; stroke-width: 1.875;"/>
         <line style="stroke: #000000; stroke-width: 1.875;" x1="577.5" x2="688.75" y1="59.5117" y2="59.5117"/>
         <text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold"
-              lengthAdjust="spacingAndGlyphs" textLength="95" x="582.5" y="50.6665">java.io.File
+              lengthAdjust="spacingAndGlyphs" textLength="95" x="582.5" y="50.6665">java.barbatos_rex1.io.File
         </text><!--MD5=[b24ed8d4ae84bae9290d9aab401637c7]
 class Manager-->
         <rect fill="#FEFECE" filter="url(#fzo6c66b3lv0i)" height="67.2949" id="Manager"
@@ -73,12 +73,12 @@ link Manager to File-->
 @startuml
 left to right direction
 hide fields
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     ~class Manager{
         {static}+makeDir(String path)
     }
 }
-package java.io.File{
+package java.barbatos_rex1.io.File{
     +class File{
         {static}+makeDirs()
     }

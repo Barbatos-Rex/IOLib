@@ -2,7 +2,7 @@
 
 hide fields
 left to right direction
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     +class IOManager{
         {static}+makeDir(String path)
     }
@@ -13,7 +13,7 @@ package barbatos_rex1.io{
         {static}+makeDir(String path)
     }
 }
-package java.io{
+package java.barbatos_rex1.io{
     +class File{
         +«File(String path)»
         +makeDirs()

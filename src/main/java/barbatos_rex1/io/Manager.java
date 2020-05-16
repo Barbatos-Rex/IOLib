@@ -1,4 +1,4 @@
-package lib.barbatos_rex1.io;
+package barbatos_rex1.io;
 
 
 import java.io.File;
@@ -9,16 +9,28 @@ import java.util.ArrayList;
  * The type Manager.
  */
 class Manager {
+    /**
+     *The file.
+     */
     private final File file;
+    /**
+     * The file content.
+     */
     private ArrayList<String> content;
+    /**
+     * The importer.
+     */
     private final Importer in;
+    /**
+     * The exporter
+     */
     private final Exporter ex;
 
     /**
      * Instantiates a new Manager.
      *
      * @param str the file path
-     * @throws IOException the io exception
+     * @throws IOException the barbatos_rex1.io exception
      */
     public Manager(String str) throws IOException {
         this.file = new File(str);
@@ -32,7 +44,7 @@ class Manager {
      * Instantiates a new Manager.
      *
      * @param file the file
-     * @throws IOException the io exception
+     * @throws IOException the barbatos_rex1.io exception
      */
     public Manager(File file) throws IOException {
         this.file = file;
@@ -56,7 +68,7 @@ class Manager {
      *
      * @param path the path
      * @return the success
-      */
+     */
     public boolean makeDir(String path) {
         return new File(path).mkdirs();
     }
@@ -74,7 +86,7 @@ class Manager {
      * Save text.
      *
      * @return the success
-     * @throws IOException the io exception
+     * @throws IOException the barbatos_rex1.io exception
      */
     public boolean saveText() throws IOException {
         return this.ex.save(this.content);
@@ -117,7 +129,7 @@ class Manager {
     /**
      * Remove line.
      *
-     * @param i the
+     * @param i the line number.
      * @return the success
      */
     public boolean removeLine(int i) {

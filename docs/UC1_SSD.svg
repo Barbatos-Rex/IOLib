@@ -69,12 +69,12 @@
 @startuml
 actor Utilizador as u
 
-participant ":IOManager" as io
+participant ":IOManager" as barbatos_rex1.io
 
 autonumber
-u-> io : Executa o método de criar o ficheiro\n com o caminhocomo parâmetro
-activate io
-io - -> u : O IOManager cria o ficheiro e retorna o sucesso
+u-> barbatos_rex1.io : Executa o método de criar o ficheiro\n com o caminhocomo parâmetro
+activate barbatos_rex1.io
+barbatos_rex1.io - -> u : O IOManager cria o ficheiro e retorna o sucesso
 deactivate
 
 

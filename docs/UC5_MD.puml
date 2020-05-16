@@ -1,0 +1,22 @@
+@startuml
+
+hide fields
+left to right direction
+package barbatos_rex1.barbatos_rex1.io{
+    ~class Manager{
+        +saveFile()
+    }
+    ~class Exporter{
+        +save(ArrayList<String>)
+    }
+}
+package java.io{
+    hide methods
+    +class File{
+    }
+}
+
+Manager"1"--"1"File: gurda o conteúdo em  >
+Manager"1"--"1"Exporter: contêm >
+
+@enduml

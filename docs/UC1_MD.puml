@@ -1,12 +1,12 @@
 @startuml
 left to right direction
 hide fields
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     ~class Manager{
         {static}+makeDir(String path)
     }
 }
-package java.io.File{
+package java.barbatos_rex1.io.File{
     +class File{
         {static}+makeDirs()
     }

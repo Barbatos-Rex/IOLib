@@ -12,15 +12,15 @@
         </filter>
     </defs>
     <g><!--MD5=[776170d50eeda089144feb66ec02fd14]
-cluster barbatos_rex1.io-->
+cluster barbatos_rex1.barbatos_rex1.io-->
         <polygon fill="#FFFFFF" filter="url(#f3xjbggkjgau6)"
                  points="27.5,29.515,182.5,29.515,191.25,59.0267,413.75,59.0267,413.75,160.7653,27.5,160.7653,27.5,29.515"
                  style="stroke: #000000; stroke-width: 1.875;"/>
         <line style="stroke: #000000; stroke-width: 1.875;" x1="27.5" x2="191.25" y1="59.0267" y2="59.0267"/>
         <text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold"
-              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.1815">barbatos_rex1.io
+              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.1815">barbatos_rex1.barbatos_rex1.io
         </text><!--MD5=[0d852700fdad35b7061d461d6907a324]
-cluster java.io-->
+cluster java.barbatos_rex1.io-->
         <polygon fill="#FFFFFF" filter="url(#f3xjbggkjgau6)"
                  points="455,44.515,520,44.515,528.75,74.0267,573.75,74.0267,573.75,169.5153,455,169.5153,455,44.515"
                  style="stroke: #000000; stroke-width: 1.875;"/>
@@ -100,7 +100,7 @@ link Importer to File-->
               id="Importer-File" style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 7.0,7.0;"/><!--MD5=[16dad17fa0003b7c71bd96ea92d5af6f]
 @startuml
 left to right direction
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     ~class Manager{
 
     }
@@ -108,7 +108,7 @@ package barbatos_rex1.io{
 
     }
 }
-package java.io{
+package java.barbatos_rex1.io{
     +class File{
 
     }

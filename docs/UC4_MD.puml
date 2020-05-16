@@ -1,0 +1,18 @@
+@startuml
+
+hide fields
+left to right direction
+package barbatos_rex1.barbatos_rex1.io{
+    ~class Manager{
+        +getFileContent()
+    }
+}
+package java.barbatos_rex1.io{
+    hide methods
+    +class File{
+    }
+}
+
+Manager"1"--"1"File: obtém o conteúdo de >
+
+@enduml

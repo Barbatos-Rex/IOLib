@@ -1,12 +1,12 @@
 @startuml
 hide fields
 left to right direction
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     ~class Manager{
         +deleteFile()
     }
 }
-package java.io{
+package java.barbatos_rex1.io{
     hide methods
     +class File{
     }

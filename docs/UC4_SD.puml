@@ -1,0 +1,29 @@
+@startuml
+
+actor Utilizador as u
+
+participant "barbatos_rex1.io:IOManager" as barbatos_rex1.io
+participant "fw:FileFireWall" as fw
+participant "manager:MAnager" as man
+
+autonumber
+activate u
+u->barbatos_rex1.io** :create(filePath) ou create(File)
+activate barbatos_rex1.io
+barbatos_rex1.io->fw**:create(filePath) ou create(File)
+activate fw
+fw->man**:create(filePath) ou create(File)
+deactivate
+deactivate
+u->barbatos_rex1.io: getFileContent()
+activate barbatos_rex1.io
+barbatos_rex1.io->fw:getFileCont()
+activate fw
+fw->man:getCont()
+activate man
+deactivate
+barbatos_rex1.io-->u: retorna o conteúdo do ficheiro
+deactivate
+deactivate
+
+@enduml

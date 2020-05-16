@@ -1,0 +1,36 @@
+@startuml
+
+actor Utilizador as u
+
+participant "barbatos_rex1.io:IOManager" as barbatos_rex1.io
+participant "fw:FileFireWall" as fw
+participant "manager:MAnager" as man
+
+autonumber
+activate u
+u->barbatos_rex1.io** :create(filePath) ou create(File)
+activate barbatos_rex1.io
+barbatos_rex1.io->fw**:create(filePath) ou create(File)
+activate fw
+fw->man**:create(filePath) ou create(File)
+deactivate
+deactivate
+u->barbatos_rex1.io: deleteFile()
+activate barbatos_rex1.io
+barbatos_rex1.io->fw:deleteFile()
+activate fw
+fw->man:deleteFile()
+activate man
+deactivate
+deactivate
+barbatos_rex1.io->barbatos_rex1.io:fw=null
+barbatos_rex1.io->barbatos_rex1.io:ioShutdown=true;
+activate barbatos_rex1.io
+deactivate
+deactivate
+
+
+
+
+
+@enduml

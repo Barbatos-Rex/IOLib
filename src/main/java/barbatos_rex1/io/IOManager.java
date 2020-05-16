@@ -1,4 +1,4 @@
-package lib.barbatos_rex1.io;
+package barbatos_rex1.io;
 
 
 import java.io.File;
@@ -17,9 +17,17 @@ public class IOManager {
 	 */
 	private FileFireWall fireWall;
 	/**
-	 * Status of the class
+	 * Status of the class.
 	 */
 	private boolean IOShutDown = false;
+	/**
+	 * The id.
+	 */
+	private final int id;
+	/**
+	 * The number of instances the class has.
+	 */
+	private static int numberOfInstances=-1;
 
 	/**
 	 * Constructor of the class
@@ -29,6 +37,7 @@ public class IOManager {
 	public IOManager(String str) {
 		this.fireWall = new FileFireWall(str);
 		this.IOShutDown = this.fireWall.meltdown;
+		this.id=numberOfInstances++;
 	}
 
 	/**
@@ -39,6 +48,7 @@ public class IOManager {
 	public IOManager(File file) {
 		this.fireWall = new FileFireWall(file);
 		this.IOShutDown = this.fireWall.meltdown;
+		this.id=numberOfInstances++;
 	}
 
 	/**
@@ -108,11 +118,11 @@ public class IOManager {
 	}
 
     /**
-     * Adds a line in a certain index/line number
-     * @param i The line number/index
-     * @param str The content of the line
-     * @param key The key of the function if LINE or INDEX
-     * @return
+     * Adds a line in a certain index/line number.
+     * @param i The line number/index.
+     * @param str The content of the line.
+     * @param key The key of the function if LINE or INDEX.
+     * @return The sucess of the method.
      */
 	public boolean addLine(int i, String str, Key key) {
         if (this.isLocked()) {

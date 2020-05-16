@@ -147,15 +147,15 @@
 @startuml
 actor Utilizador as u
 
-participant ":IOManager" as io
+participant ":IOManager" as barbatos_rex1.io
 participant ":FileFireWall" as firewall
 participant ":Manager" as manager
 participant ":File" as file
 autonumber
 activate u
-u->io : boolean makeDir(String path)
-activate io
-io -> firewall : boolean makeDir(String path)
+u->barbatos_rex1.io : boolean makeDir(String path)
+activate barbatos_rex1.io
+barbatos_rex1.io -> firewall : boolean makeDir(String path)
 activate firewall
 firewall ->manager : boolean makeDir(String path)
 activate manager

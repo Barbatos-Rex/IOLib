@@ -1,4 +1,4 @@
-package lib.barbatos_rex1.io;
+package barbatos_rex1.io;
 
 import java.io.File;
 import java.io.FileNotFoundException;

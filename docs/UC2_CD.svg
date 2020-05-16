@@ -12,15 +12,15 @@
         </filter>
     </defs>
     <g><!--MD5=[776170d50eeda089144feb66ec02fd14]
-cluster barbatos_rex1.io-->
+cluster barbatos_rex1.barbatos_rex1.io-->
         <polygon fill="#FFFFFF" filter="url(#f3814zqma7x5x)"
                  points="27.5,30,182.5,30,191.25,59.5117,1131.25,59.5117,1131.25,190,27.5,190,27.5,30"
                  style="stroke: #000000; stroke-width: 1.875;"/>
         <line style="stroke: #000000; stroke-width: 1.875;" x1="27.5" x2="191.25" y1="59.5117" y2="59.5117"/>
         <text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold"
-              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.6665">barbatos_rex1.io
+              lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.6665">barbatos_rex1.barbatos_rex1.io
         </text><!--MD5=[0d852700fdad35b7061d461d6907a324]
-cluster java.io-->
+cluster java.barbatos_rex1.io-->
         <polygon fill="#FFFFFF" filter="url(#f3814zqma7x5x)"
                  points="946.25,220,1011.25,220,1020,249.5117,1128.75,249.5117,1128.75,362.5,946.25,362.5,946.25,220"
                  style="stroke: #000000; stroke-width: 1.875;"/>
@@ -216,7 +216,7 @@ link Manager to Importer-->
         </text><!--MD5=[b89c6e8776a112cc3f95f96eb636e8ef]
 @startuml
 left to right direction
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     +class IOManager{
         +«IOManager(String path)»
     }
@@ -231,7 +231,7 @@ package barbatos_rex1.io{
         +get()
     }
 }
-package java.io{
+package java.barbatos_rex1.io{
     +class File{
         +«File(String path)»
     }

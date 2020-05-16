@@ -86,9 +86,11 @@ Outras classes de software (i.e. Pure Fabrication) identificadas:
 
 ###	Diagrama de Sequência
 
-![SD_UCX.png](UC2_SD.svg)
+![SD_UCX.png](UC3_SD.svg)
 
 
 ###	Diagrama de Classes
 
-![CD_UCX.png](UC1_CD.svg)
+*O diagrama de classes foi omitido pelo simples motivo de ser possível ler o código e o mesmo ser pouco complexo*
+
+<!--![CD_UCX.png](UC3_CD.svg)

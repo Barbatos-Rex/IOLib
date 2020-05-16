@@ -1,6 +1,6 @@
 @startuml
 left to right direction
-package barbatos_rex1.io{
+package barbatos_rex1.barbatos_rex1.io{
     ~class Manager{
 
     }
@@ -8,7 +8,7 @@ package barbatos_rex1.io{
 
     }
 }
-package java.io{
+package java.barbatos_rex1.io{
     +class File{
 
     }

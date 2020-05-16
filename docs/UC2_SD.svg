@@ -51,7 +51,7 @@
         <rect fill="#FEFECE" filter="url(#f1oomxtap9z7d8)" height="39.5117"
               style="stroke: #A80036; stroke-width: 1.875;" width="123.75" x="265.625" y="500.0098"/>
         <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs"
-              textLength="106.25" x="274.375" y="526.9263">io:IOManager
+              textLength="106.25" x="274.375" y="526.9263">barbatos_rex1.io:IOManager
         </text>
         <rect fill="#FEFECE" filter="url(#f1oomxtap9z7d8)" height="39.5117"
               style="stroke: #A80036; stroke-width: 1.875;" width="170" x="582.5" y="500.0098"/>
@@ -91,12 +91,12 @@
               lengthAdjust="spacingAndGlyphs" textLength="8.75" x="64.375" y="143.8806">1
         </text>
         <text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs"
-              textLength="166.25" x="78.125" y="143.8806">io = create(String path)
+              textLength="166.25" x="78.125" y="143.8806">barbatos_rex1.io = create(String path)
         </text>
         <rect fill="#FEFECE" filter="url(#f1oomxtap9z7d8)" height="39.5117"
               style="stroke: #A80036; stroke-width: 1.875;" width="123.75" x="265.625" y="122.0117"/>
         <text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs"
-              textLength="106.25" x="274.375" y="148.9282">io:IOManager
+              textLength="106.25" x="274.375" y="148.9282">barbatos_rex1.io:IOManager
         </text>
         <polygon fill="#A80036" points="567.5,203.2129,580,208.2129,567.5,213.2129,572.5,208.2129"
                  style="stroke: #A80036; stroke-width: 1.25;"/>
@@ -169,16 +169,16 @@
         </text><!--MD5=[4f992298b06b3614761cd5083cbe30ff]
 @startuml
 actor Utilizador as u
-participant "io:IOManager" as io
+participant "barbatos_rex1.io:IOManager" as barbatos_rex1.io
 participant "firewall:FileFireWall" as firewall
 participant "manager:Manager" as manager
 participant "file:File" as file
 participant "in:Inporter" as in
 autonumber
 activate u
-u- ->io** : io = create(String path)
-activate io
-io - ->firewall** : firewall = create(String path)
+u- ->barbatos_rex1.io** : barbatos_rex1.io = create(String path)
+activate barbatos_rex1.io
+barbatos_rex1.io - ->firewall** : firewall = create(String path)
 activate firewall
 firewall - ->manager** : manager = create(String path)
 activate manager

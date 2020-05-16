@@ -1,0 +1,14 @@
+@startuml
+
+actor Utilizador as u
+
+participant ":IOManager" as barbatos_rex1.io
+autonumber
+activate u
+
+u->barbatos_rex1.io: saveFile()
+activate barbatos_rex1.io
+barbatos_rex1.io-->u: retorna o sucesso da operação.
+deactivate
+
+@enduml

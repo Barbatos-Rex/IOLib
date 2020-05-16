@@ -2,15 +2,15 @@
 
 actor Utilizador as u
 
-participant ":IOManager" as io
+participant ":IOManager" as barbatos_rex1.io
 
 
 autonumber
 activate u
-u->io**: intancia io com o ficheiro (ou o seu caminho).
-u->io: deleteFile()
-activate io
-io --> u : Retorna o sucesso
+u->barbatos_rex1.io**: intancia barbatos_rex1.io com o ficheiro (ou o seu caminho).
+u->barbatos_rex1.io: deleteFile()
+activate barbatos_rex1.io
+barbatos_rex1.io --> u : Retorna o sucesso
 deactivate
 
 @enduml

@@ -1,4 +1,4 @@
-package lib.barbatos_rex1.io;
+package barbatos_rex1.io;
 
 /**
  * The enum Key. This enum is responsible to determine if the number is a line or index

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     height="177.5px" preserveAspectRatio="none" style="width:552px;height:177px;" version="1.1" viewBox="0 0 552 177"
+     width="552.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fug5kk0em3538" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[776170d50eeda089144feb66ec02fd14]
+cluster barbatos_rex1.barbatos_rex1.io--><polygon fill="#FFFFFF" filter="url(#fug5kk0em3538)" points="27.5,30,182.5,30,191.25,59.5117,195,59.5117,195,162.5,27.5,162.5,27.5,30" style="stroke: #000000; stroke-width: 1.875;"/><line style="stroke: #000000; stroke-width: 1.875;" x1="27.5" x2="191.25" y1="59.5117" y2="59.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147.5" x="32.5" y="50.6665">barbatos_rex1.barbatos_rex1.io</text><!--MD5=[0d852700fdad35b7061d461d6907a324]
+cluster java.barbatos_rex1.io--><polygon fill="#FFFFFF" filter="url(#fug5kk0em3538)" points="406.25,43.75,471.25,43.75,480,73.2617,525,73.2617,525,148.75,406.25,148.75,406.25,43.75" style="stroke: #000000; stroke-width: 1.875;"/><line style="stroke: #000000; stroke-width: 1.875;" x1="406.25" x2="480" y1="73.2617" y2="73.2617"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57.5" x="411.25" y="64.4165">java.io</text><!--MD5=[b24ed8d4ae84bae9290d9aab401637c7]
+class Manager--><rect fill="#FEFECE" filter="url(#fug5kk0em3538)" height="67.2949" id="Manager" style="stroke: #A80036; stroke-width: 1.875;" width="127.5" x="47.5" y="75"/><ellipse cx="72.4375" cy="95" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M74.9375,90.625 Q75.1914,90 75.4844,89.6875 Q75.7773,89.375 76.1094,89.375 Q76.6953,89.375 77.0664,89.7266 Q77.4375,90.0781 77.4375,90.8984 L77.4375,92.8516 Q77.4375,93.6719 77.0859,94.0234 Q76.7344,94.375 76.1875,94.375 Q75.6992,94.375 75.3867,94.1602 Q75.0742,93.9453 74.9375,93.3789 Q74.8789,92.9883 74.6641,92.7734 Q74.2734,92.3633 73.5703,92.1289 Q72.8672,91.875 72.1641,91.875 Q71.2852,91.875 70.543,92.2266 Q69.8203,92.5781 69.2539,93.3594 Q68.6875,94.1406 68.6875,95.2148 L68.6875,96.3672 Q68.6875,97.6563 69.7422,98.5156 Q70.7969,99.375 72.6719,99.375 Q73.7852,99.375 74.5664,99.1211 Q75.0156,98.9844 75.5234,98.5352 Q75.8555,98.2813 76.0313,98.2031 Q76.207,98.125 76.4219,98.125 Q76.832,98.125 77.125,98.457 Q77.4375,98.7695 77.4375,99.2188 Q77.4375,99.6484 77.0078,100.1563 Q76.3828,100.8984 75.3867,101.3086 Q74.0781,101.875 72.4766,101.875 Q70.6016,101.875 69.0977,101.1328 Q67.8867,100.5469 67.0273,99.2773 Q66.1875,98.0078 66.1875,96.5039 L66.1875,95.1367 Q66.1875,93.5742 66.9297,92.207 Q67.6914,90.8398 69,90.1172 Q70.3281,89.375 71.8125,89.375 Q72.7109,89.375 73.4922,89.6875 Q74.2734,90 74.9375,90.625 Z "/><polygon fill="#4177AF" points="97.5625,89.375,92.5625,96.875,102.5625,96.875" style="stroke: #1963A0; stroke-width: 1.25;"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="60" x="105.0625" y="101.1377">Manager</text><line style="stroke: #A80036; stroke-width: 1.875;" x1="48.75" x2="173.75" y1="115" y2="115"/><ellipse cx="61.25" cy="128.75" fill="#84BE84" rx="3.75" ry="3.75" style="stroke: #038048; stroke-width: 1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacingAndGlyphs" textLength="95" x="72.5" y="134.2737">getFileContent()</text><!--MD5=[63dd87716ef75a5caca5dce59428e94a]
+class File--><rect fill="#FEFECE" filter="url(#fug5kk0em3538)" height="40" id="File" style="stroke: #A80036; stroke-width: 1.875;" width="78.75" x="426.25" y="88.75"/><ellipse cx="445" cy="108.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke: #A80036; stroke-width: 1.25;"/><path d="M447.5,104.375 Q447.7539,103.75 448.0469,103.4375 Q448.3398,103.125 448.6719,103.125 Q449.2578,103.125 449.6289,103.4766 Q450,103.8281 450,104.6484 L450,106.6016 Q450,107.4219 449.6484,107.7734 Q449.2969,108.125 448.75,108.125 Q448.2617,108.125 447.9492,107.9102 Q447.6367,107.6953 447.5,107.1289 Q447.4414,106.7383 447.2266,106.5234 Q446.8359,106.1133 446.1328,105.8789 Q445.4297,105.625 444.7266,105.625 Q443.8477,105.625 443.1055,105.9766 Q442.3828,106.3281 441.8164,107.1094 Q441.25,107.8906 441.25,108.9648 L441.25,110.1172 Q441.25,111.4063 442.3047,112.2656 Q443.3594,113.125 445.2344,113.125 Q446.3477,113.125 447.1289,112.8711 Q447.5781,112.7344 448.0859,112.2852 Q448.418,112.0313 448.5938,111.9531 Q448.7695,111.875 448.9844,111.875 Q449.3945,111.875 449.6875,112.207 Q450,112.5195 450,112.9688 Q450,113.3984 449.5703,113.9063 Q448.9453,114.6484 447.9492,115.0586 Q446.6406,115.625 445.0391,115.625 Q443.1641,115.625 441.6602,114.8828 Q440.4492,114.2969 439.5898,113.0273 Q438.75,111.7578 438.75,110.2539 L438.75,108.8867 Q438.75,107.3242 439.4922,105.957 Q440.2539,104.5898 441.5625,103.8672 Q442.8906,103.125 444.375,103.125 Q445.2734,103.125 446.0547,103.4375 Q446.8359,103.75 447.5,104.375 Z "/><ellipse cx="468.75" cy="108.125" fill="#84BE84" rx="3.75" ry="3.75" style="stroke: #038048; stroke-width: 1.25;"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacingAndGlyphs" textLength="25" x="476.25" y="114.8877">File</text><!--MD5=[9094504a78a8a624dc0e3735af7308d8]
+link Manager to File--><path d="M175.0025,108.75 C247.6788,108.75 365.3738,108.75 425.8275,108.75 " fill="none" id="Manager-File" style="stroke: #A80036; stroke-width: 1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="152.5" x="216.25" y="104.3689">obtém o conteúdo de</text><polygon fill="#000000" points="372.5,95.8447,380,99.5947,372.5,103.3447,372.5,95.8447" style="stroke: #000000; stroke-width: 1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="185.0087" y="127.135">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="407.4148" y="127.8545">1</text><!--MD5=[a6b925d222e2ef6d3866ddafba8f94cf]
+@startuml
+
+hide fields
+left to right direction
+package barbatos_rex1.barbatos_rex1.io{
+    ~class Manager{
+        +getFileContent()
+    }
+}
+package java.barbatos_rex1.io{
+    hide methods
+    +class File{
+    }
+}
+
+Manager"1"- -"1"File: obtém o conteúdo de >
+
+@enduml
+
+PlantUML version 1.2020.09(Sun May 10 11:51:06 BST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.6+8-b765.40
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

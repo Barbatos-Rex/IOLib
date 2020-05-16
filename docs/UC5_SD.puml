@@ -1,0 +1,25 @@
+@startuml
+actor "Utilizador" as u
+participant ":IOManager" as io
+participant ":FileFireWall" as fw
+participant ":Manager" as manager
+participant ":Exporter" as out
+autonumber
+activate u
+u->io:saveFile()
+activate io
+io->fw:saveFile()
+activate fw
+fw->manager:saveFile()
+activate manager
+manager->out : save(ArrayList<String>)
+activate out
+out-->":File": "gurda o conteudo"
+deactivate
+deactivate
+deactivate
+io-->u:Retorna o sucesso
+
+
+
+@enduml

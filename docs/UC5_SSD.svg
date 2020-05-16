@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" contentScriptType="application/ecmascript" contentStyleType="text/css"
+     height="320px" preserveAspectRatio="none" style="width:400px;height:320px;" version="1.1" viewBox="0 0 400 320"
+     width="400px" zoomAndPan="magnify"><defs><filter height="300%" id="fmos4uvwotx3r" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fmos4uvwotx3r)" height="77.1289" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="43.125" y="122.0117"/><rect fill="#FFFFFF" filter="url(#fmos4uvwotx3r)" height="37.9395" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="328.125" y="149.9512"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="48.75" x2="48.75" y1="109.5117" y2="210.3906"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 5.0,5.0;" x1="334.375" x2="334.375" y1="109.5117" y2="210.3906"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="71.25" x="10" y="105.6665">Utilizador</text><ellipse cx="49.375" cy="16.25" fill="#FEFECE" filter="url(#fmos4uvwotx3r)" rx="10" ry="10" style="stroke: #A80036; stroke-width: 2.5;"/><path d="M49.375,26.25 L49.375,60 M33.125,36.25 L65.625,36.25 M49.375,60 L33.125,78.75 M49.375,60 L65.625,78.75 " fill="none" filter="url(#fmos4uvwotx3r)" style="stroke: #A80036; stroke-width: 2.5;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="71.25" x="10" y="227.3071">Utilizador</text><ellipse cx="49.375" cy="243.6523" fill="#FEFECE" filter="url(#fmos4uvwotx3r)" rx="10" ry="10" style="stroke: #A80036; stroke-width: 2.5;"/><path d="M49.375,253.6523 L49.375,287.4023 M33.125,263.6523 L65.625,263.6523 M49.375,287.4023 L33.125,306.1523 M49.375,287.4023 L65.625,306.1523 " fill="none" filter="url(#fmos4uvwotx3r)" style="stroke: #A80036; stroke-width: 2.5;"/><rect fill="#FEFECE" filter="url(#fmos4uvwotx3r)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="110" x="276.875" y="63.75"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="92.5" x="285.625" y="90.6665">:IOManager</text><rect fill="#FEFECE" filter="url(#fmos4uvwotx3r)" height="39.5117" style="stroke: #A80036; stroke-width: 1.875;" width="110" x="276.875" y="209.1406"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacingAndGlyphs" textLength="92.5" x="285.625" y="236.0571">:IOManager</text><rect fill="#FFFFFF" filter="url(#fmos4uvwotx3r)" height="77.1289" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="43.125" y="122.0117"/><rect fill="#FFFFFF" filter="url(#fmos4uvwotx3r)" height="37.9395" style="stroke: #A80036; stroke-width: 1.25;" width="12.5" x="328.125" y="149.9512"/><polygon fill="#A80036" points="313.125,144.9512,325.625,149.9512,313.125,154.9512,318.125,149.9512" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25;" x1="55.625" x2="320.625" y1="149.9512" y2="149.9512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="64.375" y="143.8806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="78.125" y="143.8806">saveFile()</text><polygon fill="#A80036" points="69.375,182.8906,56.875,187.8906,69.375,192.8906,64.375,187.8906" style="stroke: #A80036; stroke-width: 1.25;"/><line style="stroke: #A80036; stroke-width: 1.25; stroke-dasharray: 2.0,2.0;" x1="61.875" x2="333.125" y1="187.8906" y2="187.8906"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="8.75" x="76.875" y="181.8201">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacingAndGlyphs" textLength="228.75" x="90.625" y="181.8201">retorna o sucesso da operação.</text><!--MD5=[49f0c7d868a2707d559a906c7ef8dafc]
+@startuml
+
+actor Utilizador as u
+
+participant ":IOManager" as barbatos_rex1.io
+autonumber
+activate u
+
+u->barbatos_rex1.io: saveFile()
+activate barbatos_rex1.io
+barbatos_rex1.io- ->u: retorna o sucesso da operação.
+deactivate
+
+@enduml
+
+PlantUML version 1.2020.09(Sun May 10 11:51:06 BST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.6+8-b765.40
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

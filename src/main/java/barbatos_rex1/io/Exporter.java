@@ -1,4 +1,4 @@
-package lib.barbatos_rex1.io;
+package barbatos_rex1.io;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,7 +25,7 @@ class Exporter {
      *
      * @param content the content
      * @return the success
-     * @throws IOException the io exception
+     * @throws IOException the barbatos_rex1.io exception
      */
     public boolean save(ArrayList<String> content) throws IOException {
         PrintWriter ex = new PrintWriter(file);
