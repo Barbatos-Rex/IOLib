@@ -4,14 +4,14 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
-public class ObjectToBinaryFile {
+class ObjectToBinaryFile {
 	private String filePath;
 
 	public ObjectToBinaryFile(String filePath) {
 		this.filePath = filePath;
 	}
 
-	public boolean save(Class<?> object){
+	public boolean save(Object object){
 		try{
 			new ObjectOutputStream(new FileOutputStream(new File(filePath))).writeObject(object);
 			return true;

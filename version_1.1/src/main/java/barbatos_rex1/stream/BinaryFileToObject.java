@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
-public class BinaryFileToObject<T> {
+class BinaryFileToObject<T> {
 	private String filePath;
 	public BinaryFileToObject(String filePath){
 		this.filePath=filePath;

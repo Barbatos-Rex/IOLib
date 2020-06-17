@@ -1,5 +1,6 @@
 barbatos_rex1\io\Key.class
 barbatos_rex1\stream\ObjectToBinaryFile.class
+barbatos_rex1\stream\BinaryFileManager.class
 barbatos_rex1\io\Exporter.class
 barbatos_rex1\stream\BinaryFileToObject.class
 barbatos_rex1\io\Manager.class
