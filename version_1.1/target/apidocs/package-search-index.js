@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"barbatos_rex1.io"},{"l":"barbatos_rex1.stream"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"barbatos_rex1.io.stream"},{"l":"barbatos_rex1.io.text"}]

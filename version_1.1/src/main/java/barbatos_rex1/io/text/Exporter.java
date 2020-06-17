@@ -1,4 +1,4 @@
-package barbatos_rex1.io;
+package barbatos_rex1.io.text;
 
 import java.io.File;
 import java.io.IOException;
