@@ -7,6 +7,15 @@
     <groupId>barbatos_rex1</groupId>
     <artifactId>IOLIb</artifactId>
     <version>1.0.2</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
+        </plugins>
+    </build>
 
-    
+
 </project>

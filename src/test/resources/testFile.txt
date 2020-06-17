@@ -1,4 +1,0 @@
-Line: 1  Index: 0
-Line: 2  Index: 1
-Line: 3  Index: 2
-Line: 4  Index: 3
