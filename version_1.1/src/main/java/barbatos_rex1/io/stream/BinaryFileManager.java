@@ -1,5 +1,7 @@
 package barbatos_rex1.io.stream;
 
+import java.io.File;
+
 /**
  * The class that manages binary files
  * @param <T> The type of the object that the file holds
@@ -39,4 +41,21 @@ public class BinaryFileManager<T> {
 	public T load(){
 		return (T) importer.readObject();
 	}
+
+	/**
+	 * Sets a new file for the reading/saving of object
+	 * @param newFile The path of the new file
+	 */
+	public void setFile(String newFile){
+		this.importer=new BinaryFileToObject<>(newFile);
+		this.exporter=new ObjectToBinaryFile(newFile);
+	}
+	/**
+	 * Sets a new file for the reading/saving of object
+	 * @param newFile The new file
+	 */
+	public void setFile(File newFile){
+		setFile(newFile.getPath());
+	}
+	
 }
