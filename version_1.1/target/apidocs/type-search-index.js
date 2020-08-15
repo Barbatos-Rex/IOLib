@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"barbatos_rex1.io.stream","l":"BinaryFileManager"},{"p":"barbatos_rex1.io.text","l":"IOManager"},{"p":"barbatos_rex1.io.text","l":"Key"}]

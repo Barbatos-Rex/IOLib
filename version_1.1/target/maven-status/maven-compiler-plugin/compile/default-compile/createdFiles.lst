@@ -1,0 +1,9 @@
+barbatos_rex1\io\stream\BinaryFileManager.class
+barbatos_rex1\io\text\Importer.class
+barbatos_rex1\io\stream\ObjectToBinaryFile.class
+barbatos_rex1\io\text\FileFireWall.class
+barbatos_rex1\io\stream\BinaryFileToObject.class
+barbatos_rex1\io\text\Exporter.class
+barbatos_rex1\io\text\Manager.class
+barbatos_rex1\io\text\Key.class
+barbatos_rex1\io\text\IOManager.class
