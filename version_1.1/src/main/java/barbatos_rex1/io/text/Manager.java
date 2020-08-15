@@ -68,7 +68,8 @@ class Manager implements Serializable {
      * @return the success
      */
     public boolean makeDir(String path) {
-        return new File(path).mkdirs();
+        String[] dirPath= path.split("[\\w-]+\\.[aaa-zzz]{1,20}");
+        return new File(dirPath[0]).mkdirs();
     }
 
     /**
