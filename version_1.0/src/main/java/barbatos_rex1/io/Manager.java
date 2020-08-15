@@ -68,7 +68,8 @@ class Manager implements Serializable {
      * @return the success
      */
     public boolean makeDir(String path) {
-        return new File(path).mkdirs();
+        String[] tmpPath = path.split("\\w*\\.[\\w]{1,100}");
+        return new File(tmpPath[0]).mkdirs();
     }
 
     /**
