@@ -34,13 +34,14 @@ class Manager implements Serializable {
      * @throws IOException the barbatos_rex1.io exception
      */
     public Manager(String str) throws IOException {
+        makeDir(new File(str).getParent());
         this.file = new File(str);
-        makeDir(str);
         this.in = new Importer(this.file);
         this.ex=new Exporter(this.file);
         this.file.createNewFile();
         this.content = in.get();
     }
+
 
     /**
      * Instantiates a new Manager.
@@ -68,8 +69,7 @@ class Manager implements Serializable {
      * @return the success
      */
     public boolean makeDir(String path) {
-        String[] tmpPath = path.split("\\w*\\.[\\w]{1,100}");
-        return new File(tmpPath[0]).mkdirs();
+        return new File(path).mkdirs();
     }
 
     /**

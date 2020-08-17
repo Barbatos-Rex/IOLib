@@ -34,8 +34,8 @@ class Manager implements Serializable {
      * @throws IOException the barbatos_rex1.io exception
      */
     public Manager(String str) throws IOException {
+        makeDir(new File(str).getParent());
         this.file = new File(str);
-        makeDir(str);
         this.in = new Importer(this.file);
         this.ex=new Exporter(this.file);
         this.file.createNewFile();
